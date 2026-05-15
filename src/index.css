@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-navy: #211F54;
+  --color-premium-red: #E52421;
+  --color-hover-red: #9C0C0C;
+  --color-active-red: #8B0A0A;
+  --color-dark-mauve: #6E7191;
+  --color-soft-rose: #EBDCDC;
+  --color-off-white: #FFFFFF;
+  --color-light-gray: #F3F3F3;
+  --color-very-light-blue: #F7F7FC;
+  --color-light-lavender: #EFF0F6;
+  --color-charcoal: #333333;
+  
+  --shadow-elevation-1: rgba(20, 20, 43, 0.06) 0px 2px 7px 0px;
+  --shadow-elevation-2: rgba(20, 20, 43, 0.08) 0px 2px 12px 0px;
+  --shadow-elevation-3: rgba(74, 58, 255, 0.1) 0px 3px 8px 0px;
+  --shadow-elevation-4: rgba(33, 31, 84, 0.06) 0px 3px 6px 0px;
+  --shadow-elevation-5: rgba(20, 20, 43, 0.12) 0px 4px 12px 0px;
+
+  --radius-card: 24px;
+  --radius-button: 48px;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-off-white text-charcoal leading-relaxed text-base md:text-lg antialiased overflow-x-hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-primary-navy font-bold;
+  }
+
+  h1 { @apply text-4xl md:text-[54px] leading-tight md:leading-[66px]; }
+  h2 { @apply text-3xl md:text-[38px] leading-tight md:leading-[50px]; }
+  h3 { @apply text-xl md:text-[24px] leading-tight md:leading-[34px]; }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-6 md:px-8 py-3 md:py-5 rounded-[48px] font-bold text-base md:text-lg cursor-pointer transition-all duration-300 h-12 md:h-[60px];
+  }
+  
+  .btn-primary {
+    @apply bg-premium-red text-off-white shadow-elevation-3 hover:bg-hover-red hover:shadow-[rgba(74,58,255,0.15)_0px_5px_12px_0px];
+  }
+  
+  .btn-secondary {
+    @apply bg-off-white text-premium-red border border-light-lavender shadow-elevation-4 h-[50px] md:h-[62px] hover:bg-light-gray hover:border-premium-red;
+  }
+
+  .card {
+    @apply bg-off-white border border-light-lavender rounded-[24px] p-6 md:p-12 shadow-elevation-1 transition-all duration-300 hover:shadow-elevation-5 hover:-translate-y-0.5;
+  }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee-fast {
+  animation: marquee 15s linear infinite;
+}
+
+/* Pause animation on hover */
+.animate-marquee-fast:hover {
+  animation-play-state: paused;
+}
