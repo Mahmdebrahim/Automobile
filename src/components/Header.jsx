@@ -9,7 +9,7 @@ const Header = () => {
     <header className="py-4 md:py-6 bg-white border-b border-light-lavender sticky top-0 z-1000">
       <div className="container mx-auto px-4 lg:px-12 flex justify-between items-center">
         <div className="flex items-center">
-          <Link to="/">
+          <Link to="/" onClick={() => window.scrollTo(0, 0)}>
             <img
               src={logo}
               alt="Automobile Schönau Logo"

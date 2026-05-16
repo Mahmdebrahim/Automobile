@@ -5,7 +5,7 @@ const CarCard = ({ car }) => {
   // التعامل مع الصورة
   const imageUrl = new URL(`../assets/${car.bild}.jpg`, import.meta.url).href;
 
-  const isNew = car.kilometerstand < 1000 || car.jahr === 2026;
+  const isNew = car.kilometerstand < 100000 || car.jahr === 2026;
 
   return (
     <div className="overflow-hidden p-2 flex flex-col bg-white rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300 border border-gray-100">
