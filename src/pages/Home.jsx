@@ -269,10 +269,7 @@ const Home = () => {
           </h2>
           <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-10">
             {/* WhatsApp Card */}
-            <a
-              href="#"
-              className="flex items-center bg-white rounded-3xl p-3 pr-8 shadow-elevation-2 hover:-translate-y-1 transition-transform duration-300 w-full md:w-auto"
-            >
+            <div className="flex items-center bg-white rounded-3xl p-3 pr-8 shadow-elevation-2 hover:-translate-y-1 transition-transform duration-300 w-full md:w-auto">
               <div className="w-20 h-20 bg-premium-red rounded-[20px] flex items-center justify-center shadow-[0_8px_20px_rgba(229,36,33,0.4)] mr-6 shrink-0 border-[3px] border-red-200/30">
                 <svg
                   width="36"
@@ -287,19 +284,19 @@ const Home = () => {
                   <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
                 </svg>
               </div>
-              <a href="https://wa.me/491712084467" className="text-left">
+              <div className="text-left">
                 <p className="text-dark-mauve text-lg mb-1 font-normal">
                   WhatsApp:
                 </p>
                 <p className="text-premium-red font-bold text-xl md:text-xl leading-tight">
                   24/ über whatsapp erichpaas
                 </p>
-              </a>
-            </a>
+              </div>
+            </div>
 
             {/* Email Card */}
             <a
-              href="#"
+              href="mailto:Automobile @fantastic.de"
               className="flex items-center bg-white rounded-3xl p-3 pr-12 shadow-elevation-2 hover:-translate-y-1 transition-transform duration-300 w-full md:w-auto"
             >
               <div className="w-20 h-20 bg-premium-red rounded-[20px] flex items-center justify-center shadow-[0_8px_20px_rgba(229,36,33,0.4)] mr-6 shrink-0 border-[3px] border-red-200/30">
@@ -448,7 +445,7 @@ const Home = () => {
               </div>
             </a>
 
-            {/* Phone Card */}
+            {/* Adresse Card */}
             <div className="flex items-center bg-white rounded-3xl p-3 pr-12 shadow-[0_4px_20px_rgba(0,0,0,0.03)] hover:-translate-y-1 transition-transform duration-300 border border-gray-100">
               <div className="w-20 h-20 bg-premium-red rounded-[20px] flex items-center justify-center shadow-[0_8px_20px_rgba(229,36,33,0.3)] mr-6 shrink-0 border-[3px] border-red-200/30">
                 <svg
