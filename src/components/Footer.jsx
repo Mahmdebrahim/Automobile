@@ -16,34 +16,10 @@ const Footer = () => {
           <ul className="list-none">
             <li className="mb-3">
               <a
-                href="/"
+                href="/fahrzeuge"
                 className="text-dark-mauve text-sm hover:text-primary-navy hover:underline transition-all"
               >
                 Unsere Fahrzeuge
-              </a>
-            </li>
-            <li className="mb-3">
-              <a
-                href="/verkaufen"
-                className="text-dark-mauve text-sm hover:text-primary-navy hover:underline transition-all"
-              >
-                Auto verkaufen
-              </a>
-            </li>
-            <li className="mb-3">
-              <a
-                href="/kontakt"
-                className="text-dark-mauve text-sm hover:text-primary-navy hover:underline transition-all"
-              >
-                Kontakt
-              </a>
-            </li>
-            <li className="mb-3">
-              <a
-                href="/impressum"
-                className="text-dark-mauve text-sm hover:text-primary-navy hover:underline transition-all"
-              >
-                Impressum
               </a>
             </li>
           </ul>
@@ -51,7 +27,7 @@ const Footer = () => {
         <div>
           <h4 className="mb-4 text-primary-navy font-bold">Kontakt</h4>
           <p className="text-dark-mauve text-sm mb-2">
-            Blankenauer Str. 59, 09113 Chemnitz, Germany
+            annaberger str. 271, 09125 chemnitz,
           </p>
           <p className="text-dark-mauve text-sm">Automobile@fantastic.de</p>
         </div>

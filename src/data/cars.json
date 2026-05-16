@@ -26,6 +26,19 @@
     "bild": "2"
   },
   {
+    "id": 3,
+    "marke": "Volkswagen",
+    "modell": "Golf Plus VI Match DSG BI-XENON S.DACH AHK SHZ",
+    "jahr": 2012,
+    "preis": 10890,
+    "kilometerstand": 95500,
+    "kraftstoffart": "Benzin",
+    "getriebe": "Automatik",
+    "leistung": "103 kW (140 PS)",
+    "erstzulassung": "10/2012",
+    "bild": "3"
+  },
+  {
     "id": 4,
     "marke": "Volkswagen",
     "modell": "Caddy Maxi EcoProfi 2.0 TDI NAVI SHZ KLIMA PDC",
@@ -37,19 +50,6 @@
     "leistung": "75 kW (102 PS)",
     "erstzulassung": "07/2021",
     "bild": "4"
-  },
-  {
-    "id": 3,
-    "marke": "Volkswagen",
-    "modell": "Golf Plus VI Match DSG BI-XENON S.DACH AHK SHZ",
-    "jahr": 2012,
-    "preis": 10890,
-    "kilometerstand": 95500,
-    "kraftstoffart": "Benzin",
-    "getriebe": "Automatik",
-    "leistung": "103 kW (140 PS)",
-    "erstzulassung": "10/2012",
-    "bild": "https://placehold.co/600x400?text=VW+Golf+Plus"
   },
   {
     "id": 5,
