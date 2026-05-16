@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-very-light-blue pt-20 border-t border-light-lavender">
       <div className="container mx-auto px-4 lg:px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 pb-20">
         <div>
-          <h3 className="mb-4">Automobile Schönau</h3>
+          <h3 className="mb-4">Automobil fantastic</h3>
           <p className="text-dark-mauve">
             Ihr vertrauensvoller Partner für hochwertige Fahrzeuge und
             erstklassigen Service in Chemnitz.
@@ -35,7 +35,7 @@ const Footer = () => {
       <div className="py-6 border-t border-light-lavender text-center text-sm text-dark-mauve bg-white">
         <div className="container mx-auto px-4">
           <p>
-            © {new Date().getFullYear()} Automobile Schönau. Alle Rechte
+            © {new Date().getFullYear()} Automobil fantastic. Alle Rechte
             vorbehalten.
           </p>
         </div>

@@ -68,9 +68,10 @@ const Home = () => {
               Ihr Rundum-Sorglos-Paket
             </h2>
             <p className="text-dark-mauve text-lg">
-              Erleben Sie bei Automobile Schönau ein einzigartiges Kauferlebnis,
-              bei dem Auswahl, Transparenz und persönlicher Service Ihr
-              Fahrzeugkauf zu einem unvergesslichen Abenteuer machen.
+              Erleben Sie bei Automobil fantastic ein einzigartiges
+              Kauferlebnis, bei dem Auswahl, Transparenz und persönlicher
+              Service Ihr Fahrzeugkauf zu einem unvergesslichen Abenteuer
+              machen.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
@@ -331,7 +332,7 @@ const Home = () => {
       <section className="py-24">
         <div className="container mx-auto px-4 lg:px-12">
           <div className="text-center mb-12">
-            <h2 className="mb-4">Warum Automobile Schönau?</h2>
+            <h2 className="mb-4">Warum Automobil fantastic?</h2>
             <p className="text-dark-mauve">
               Vertrauen und Qualität stehen bei uns an erster Stelle.
             </p>
